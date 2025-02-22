@@ -1,0 +1,24 @@
+{
+  "excludedCreatures": [
+    "Skyray",
+    "SeaEmperorBaby",
+    "SeaEmperorJuvenile",
+    "Cutefish",
+    "ExampleCreature",
+    "ExampleShark",
+    "ExampleLeviathan",
+    "NothingToSeeHere1",
+    "NothingToSeeHere2",
+    "NothingToSeeHere3",
+    "NothingToSeeHere4",
+    "WeaponsBaseCables",
+    "AdultGargSpawner",
+    "MiscRotAInitializers",
+    "DefabricatedCyclops",
+    "Silence",
+    "GargantuanJuvenile",
+    "GargantuanVoid",
+    "GargantuanBaby",
+    "GrandBloop"
+  ]
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RandomCreatureSpawn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87495270dd44b6f16ad32f8fb768ce3e8ac1cc5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RandomCreatureSpawn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RandomCreatureSpawn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

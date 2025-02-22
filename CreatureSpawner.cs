@@ -15,10 +15,10 @@ namespace RandomCreatureSpawn
         {
             if (coordinates == null)
             {
-                Debug.LogError("Problème avec les coordonées");
+                Debug.LogError("Problem with coordinates");
                 return;
             }
-            // Enregistre les informations nécessaire au spawn d'une créature.
+            // Records information needed to spawn a creature
             SpawnInfo creatureInfo = new SpawnInfo(techType, coordinates);
             CoordinatedSpawnsHandler.RegisterCoordinatedSpawn(creatureInfo);
         }

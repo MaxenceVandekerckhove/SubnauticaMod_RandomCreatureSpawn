@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\creaturespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:creaturespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\excludedcreatures.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:excludedcreatures.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\biomecoordinates.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:biomecoordinates.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\coordinategenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:coordinategenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\creaturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:creaturegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,99 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
               "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T16:16:38.797Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Config.cs",
-              "RelativeDocumentMoniker": "Config.cs",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Config.cs",
-              "RelativeToolTip": "Config.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T11:20:52.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreatureSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CreatureSpawner.cs",
-              "RelativeDocumentMoniker": "CreatureSpawner.cs",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CreatureSpawner.cs",
-              "RelativeToolTip": "CreatureSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T00:32:33.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CoordinateGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CoordinateGenerator.cs",
-              "RelativeDocumentMoniker": "CoordinateGenerator.cs",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CoordinateGenerator.cs",
-              "RelativeToolTip": "CoordinateGenerator.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCgAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T00:32:28.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BiomeCoordinates.json",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\BiomeCoordinates.json",
-              "RelativeDocumentMoniker": "BiomeCoordinates.json",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\BiomeCoordinates.json",
-              "RelativeToolTip": "BiomeCoordinates.json",
-              "ViewState": "AgIAALMDAAAAAAAAAAAgwNsDAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-21T00:09:54.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExcludedCreatures.json",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\ExcludedCreatures.json",
-              "RelativeDocumentMoniker": "ExcludedCreatures.json",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\ExcludedCreatures.json",
-              "RelativeToolTip": "ExcludedCreatures.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-20T22:58:25.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreatureGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CreatureGenerator.cs",
-              "RelativeDocumentMoniker": "CreatureGenerator.cs",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\CreatureGenerator.cs",
-              "RelativeToolTip": "CreatureGenerator.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T21:06:21.015Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

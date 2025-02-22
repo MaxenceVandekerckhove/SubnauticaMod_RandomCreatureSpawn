@@ -27,52 +27,48 @@ public class Plugin : BaseUnityPlugin
 
     private void Awake()
     {
-        // Initialisation du logger
+        // Logger initialization
         Logger = base.Logger;
 
-        // Application des patchs Harmony
-        Harmony.CreateAndPatchAll(Assembly, $"{PluginInfo.PLUGIN_GUID}");
-        Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
-
-        // Chargement de la configuration
+        // Configuration loading
         config = OptionsPanelHandler.RegisterModOptions<Config>();
 
-        // Événement pour le chargement de la scène
-        Logger.LogInfo("Evenement pour le chargement de la scène");
+        // Event that detects the scene loading
+        Logger.LogInfo("Scene loading event");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    // Permet de charger le mod après le chargement d'autres mods.
+    // Allow to load the mod after the loading of other mod objects (Creatures from other mods).
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Vérifie si la scène chargée est la scène principale (partie en cours)
-        Logger.LogInfo($"Nom de la scène : {scene.name}");
+        // Check if the loaded scene is the MAIN scene (Player going in game)
+        Logger.LogInfo($"Scene name : {scene.name}");
 
         if (scene.name == "Main" && !hasInitialized)
         {
-            Logger.LogInfo($"Scène Main détecté !");
+            Logger.LogInfo($"Main scene detected !");
             hasInitialized = true;
-            Logger.LogInfo("Partie chargée. Initialisation du mod RandomCreatureSpawn...");
+            Logger.LogInfo("Game loaded. RandomCreatureSpawn initialization...");
 
-            // Initialisation des créatures disponibles
+            // Available creatures initialization
             CreatureGenerator.OnCreatureLoaded += () => StartCoroutine(ShowCreaturesAfterInit());
             CreatureGenerator.Initialize();
         }
     }
 
-    // Méthode permettant d'afficher les créatures disponibles après le chargement des TechTypes
+    // Display availables creatures that can be spawned
     private IEnumerator ShowCreaturesAfterInit()
     {
         yield return new WaitForSeconds(1);
         List<TechType> creatures = CreatureGenerator.GetAvailableCreatures();
 
-        Plugin.Logger.LogInfo($"Liste des créatures disponibles : {creatures.Count} trouvées.");
+        Plugin.Logger.LogInfo($"List of available creatures : {creatures.Count} found.");
         foreach (var creature in creatures)
         {
             Plugin.Logger.LogInfo($"- {creature}");
         }
 
-        // Génère les coordonées et fait apparaitre les créatures
+        // Generate the random coordinates and spawn the creatures
         UpdateCreatureSpawns.RefreshSpawns(config.CreatureDensityMultiplier);
     }
 }

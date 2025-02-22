@@ -33,3 +33,4 @@ C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\obj\Deb
 C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\obj\Debug\net472\RandomCr.A932516B.Up2Date
 C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\obj\Debug\net472\RandomCreatureSpawn.dll
 C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\obj\Debug\net472\RandomCreatureSpawn.pdb
+C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\obj\Debug\net472\RandomCreatureSpawn.sourcelink.json

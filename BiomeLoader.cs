@@ -25,7 +25,7 @@ public class BiomeLoader
             }
             catch (Exception ex)
             {
-                Debug.LogError($"Erreur lors du chargement des biomes : {ex.Message}");
+                Debug.LogError($"Biome loading error : {ex.Message}");
                 return null;
             }
         }

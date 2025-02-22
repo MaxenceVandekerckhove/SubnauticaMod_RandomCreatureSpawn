@@ -11,20 +11,20 @@ namespace RandomCreatureSpawn
     [Menu("Random Creature Spawn (Restart game required after any change)")]
     internal class Config : ConfigFile
     {
-        // Multiplicateur du nombre de coordonnées à générer
+        // Random coordinates number multiplier
         [Slider("Creature Density Multiplier", 1, 10, DefaultValue = 1, Step = 1)]
         public int CreatureDensityMultiplier = 1;
 
-        // Définition du chemin pour le fichier JSON des créatures exclus
+        // Path for the JSON file containing excluded creatures
         private static readonly string jsonPath = Path.Combine("./BepInEx/plugins/RandomCreatureSpawn/ExcludedCreatures.json");
 
-        // Chargement des créatures exclus depuis le JSON
+        // Loading of excluded creatures from JSON file.
         public static string[] LoadExcludedCreatures()
         {
-            // Vérification de l'existence du fichier
+            // Check if the file exists
             if (!File.Exists(jsonPath))
             {
-                Debug.LogWarning($"Fichier {jsonPath} introuvable. Un nouveau sera créé avec les valeurs par défaut.");
+                Debug.LogWarning($"File {jsonPath} not found.");
                 return Array.Empty<string>();
             }
 
@@ -36,7 +36,7 @@ namespace RandomCreatureSpawn
             }
             catch (Exception ex)
             {
-                Debug.LogError($"Erreur lors du chargement des créatures exclues : {ex.Message}");
+                Debug.LogError($"Loading error concerning excluded creatures : {ex.Message}");
                 return Array.Empty<string>();
             }
         }

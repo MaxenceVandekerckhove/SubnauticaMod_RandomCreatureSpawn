@@ -15,6 +15,9 @@ namespace RandomCreatureSpawn
         [Slider("Creature Density Multiplier", 1, 10, DefaultValue = 1, Step = 1)]
         public int CreatureDensityMultiplier = 1;
 
+        [Toggle("Spawn new creatures each time you load a World")]
+        public bool CreatureSpawnEachWorldLoading = false;
+
         // Path for the JSON file containing excluded creatures
         private static readonly string jsonPath = Path.Combine("./BepInEx/plugins/RandomCreatureSpawn/ExcludedCreatures.json");
 

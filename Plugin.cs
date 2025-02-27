@@ -7,6 +7,7 @@ using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using Nautilus.Handlers;
+using Nautilus.Json;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -44,15 +45,38 @@ public class Plugin : BaseUnityPlugin
         // Check if the loaded scene is the MAIN scene (Player going in game)
         Logger.LogInfo($"Scene name : {scene.name}");
 
-        if (scene.name == "Main" && !hasInitialized)
+        if (scene.name == "Main")
         {
             Logger.LogInfo($"Main scene detected !");
-            hasInitialized = true;
-            Logger.LogInfo("Game loaded. RandomCreatureSpawn initialization...");
 
-            // Available creatures initialization
-            CreatureGenerator.OnCreatureLoaded += () => StartCoroutine(ShowCreaturesAfterInit());
-            CreatureGenerator.Initialize();
+            // Get from the config value of the bool CreatureSpawnEachWorldLoading
+            // False by default
+            bool creatureRespawn = config.CreatureSpawnEachWorldLoading;
+
+            // Get the value from the SaveDateCache to know if the creatures are already spawned in the world you are loading.
+            bool hasSpawnedCreatures = CreatureSpawnData.Instance.HasSpawnedCreatures;
+
+            if (creatureRespawn == true)
+            {
+                // Spawn new creatures every loading
+                Logger.LogInfo("Creature respawn is enabled. Spawning creatures...");
+                CreatureGenerator.OnCreatureLoaded += () => StartCoroutine(ShowCreaturesAfterInit());
+                CreatureGenerator.Initialize();
+            }
+            else if (hasSpawnedCreatures == false)
+            {
+                // Spawn creature once and save state of the world in `SaveDataCache`
+                Logger.LogInfo("Creature respawn is disabled, but creatures have not been spawned yet. Spawning now...");
+                CreatureGenerator.OnCreatureLoaded += () => StartCoroutine(ShowCreaturesAfterInit());
+                CreatureGenerator.Initialize();
+
+                CreatureSpawnData.Instance.HasSpawnedCreatures = true;
+                CreatureSpawnData.Instance.SaveData();
+            }
+            else if (hasSpawnedCreatures == true)
+            {
+                Logger.LogInfo("Creature respawn is disabled, not spawning new creatures !");
+            }
         }
     }
 

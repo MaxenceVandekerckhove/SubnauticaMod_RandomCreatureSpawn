@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\",
+  "WorkspaceRootPath": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|c:\\users\\maxence vdk\\desktop\\subnautica mod\\projects\\randomcreaturespawn\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|i:\\projects\\subnautica projects\\projects\\mod_randomcreaturespawn\\randomcreaturespawn\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|i:\\projects\\subnautica projects\\projects\\mod_randomcreaturespawn\\randomcreaturespawn\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|i:\\projects\\subnautica projects\\projects\\mod_randomcreaturespawn\\randomcreaturespawn\\updatecreaturespawns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D0CFA5-C6D7-4CF6-A8BB-925C751883DA}|RandomCreatureSpawn.csproj|solutionrelative:updatecreaturespawns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateCreatureSpawns.cs",
+              "DocumentMoniker": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\UpdateCreatureSpawns.cs",
+              "RelativeDocumentMoniker": "UpdateCreatureSpawns.cs",
+              "ToolTip": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\UpdateCreatureSpawns.cs",
+              "RelativeToolTip": "UpdateCreatureSpawns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:23:23.497Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Plugin.cs",
+              "DocumentMoniker": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "C:\\Users\\Maxence Vdk\\Desktop\\Subnautica Mod\\Projects\\RandomCreatureSpawn\\Plugin.cs",
+              "ToolTip": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAywEkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T16:16:38.797Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-26T18:21:02.714Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\Config.cs",
+              "RelativeDocumentMoniker": "Config.cs",
+              "ToolTip": "I:\\Projects\\Subnautica Projects\\Projects\\Mod_RandomCreatureSpawn\\RandomCreatureSpawn\\Config.cs",
+              "RelativeToolTip": "Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:15:34.45Z"
             }
           ]
         }

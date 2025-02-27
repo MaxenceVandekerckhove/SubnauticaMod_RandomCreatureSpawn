@@ -29,6 +29,6 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy /y &quot;$(TargetDir)RandomCreatureSpawn.dll&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\RandomCreatureSpawn.dll&quot;&#xD;&#xA;&#xD;&#xA;xcopy /y &quot;C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\BiomeCoordinates.json&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\BiomeCoordinates.json&quot;&#xD;&#xA;&#xD;&#xA;xcopy /y &quot;C:\Users\Maxence Vdk\Desktop\Subnautica Mod\Projects\RandomCreatureSpawn\ExcludedCreatures.json&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\ExcludedCreatures.json&quot;" />
+    <Exec Command="xcopy /y &quot;$(TargetDir)RandomCreatureSpawn.dll&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\RandomCreatureSpawn.dll&quot;&#xD;&#xA;&#xD;&#xA;xcopy /y &quot;I:\Projects\Subnautica Projects\Projects\Mod_RandomCreatureSpawn\RandomCreatureSpawn\BiomeCoordinates.json&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\BiomeCoordinates.json&quot;&#xD;&#xA;&#xD;&#xA;xcopy /y &quot;I:\Projects\Subnautica Projects\Projects\Mod_RandomCreatureSpawn\RandomCreatureSpawn\ExcludedCreatures.json&quot; &quot;J:\Steam\steamapps\common\Subnautica\BepInEx\plugins\RandomCreatureSpawn\ExcludedCreatures.json&quot;" />
   </Target>
 </Project>
